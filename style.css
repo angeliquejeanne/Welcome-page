@@ -1,0 +1,64 @@
+/* imports de ou des polices via google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+body {
+    font-family: 'Sofia', cursive;
+    background: grey;
+}
+
+h1 a {
+    font-size: 140px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: url(02.jpg) 30% 30%;
+    background-size: cover;
+    text-decoration: none;
+    border: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media screen and (min-width:320px) {
+    h1 a {
+        font-size: 38px;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (min-width:425px) {
+    h1 a {
+        font-size: 48px;
+        letter-spacing: 8px;
+    }
+}
+@media screen and (min-width:768px) {
+    h1 a {
+        font-size: 70px;
+        letter-spacing: 12px;
+    }
+}
+@media screen and (min-width:1024px) {
+    h1 a {
+        font-size: 90px;
+        letter-spacing: 15px;
+    }
+}
+@media screen and (min-width:1280px) {
+    h1 a {
+        font-size: 140px;
+        letter-spacing: 15px;
+    }
+}
